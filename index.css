@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* 
+.wrapper{
+    display: flex;
+    background-color: #f1f1f1;
+}
+.wrapper div{
+    background-color: dodgerblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+} */
+
+/* order - element tartibini belgilaydi */
+/* stretch - o'zinni asil holida */
+
+
+/* 
+.wrapper{
+    display: flex;
+    background-color: #f1f1f1;
+    align-items: stretch;
+}
+.wrapper div{
+    background-color: dodgerblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+
+
+/* flex-grow - moslashuvchan elementlarni 
+boshqa elementlarga nisbatan qanday joylashadi */
+
+/* .wrapper{  display: flex;
+    background-color: #f1f1f1;
+    align-items: stretch;
+}
+.wrapper div{
+    background-color: dodgerblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+} */
+
+
+/* flex-shrink - moslashuvchan elementlarni 
+boshqa elementlarga nisbatan qanday qisqarishi */
+
+.wrapper{  display: flex;
+    background-color: #f1f1f1;
+    align-items: stretch;
+}
+.wrapper div{
+    background-color: dodgerblue;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
